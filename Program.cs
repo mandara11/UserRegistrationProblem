@@ -17,6 +17,12 @@
             Console.WriteLine("Please Enter your last name");
             var check2 = lastName.ValidateFirstName(Console.ReadLine());
             Console.WriteLine(check2);
+
+            //UC3
+            CheckEmail checkEmail = new CheckEmail();
+            Console.WriteLine("Please Enter your email to check");
+            var check3 = checkEmail.ValidateEMail(Console.ReadLine());
+            Console.WriteLine(check3);
         }
     }
 }
