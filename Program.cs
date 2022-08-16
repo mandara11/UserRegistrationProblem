@@ -29,6 +29,12 @@
             Console.WriteLine("Please Enter your mobile no with country code");
             var check4 = mobileFormat.ValidateMobileNo(Console.ReadLine());
             Console.WriteLine(check4);
+
+            //UC5
+            Password1 password1 = new Password1();
+            Console.WriteLine("Please Enter your password to check");
+            var check5 = password1.ValidatePassword1(Console.ReadLine());
+            Console.WriteLine(check5);
         }
     }
 }
