@@ -23,6 +23,12 @@
             Console.WriteLine("Please Enter your email to check");
             var check3 = checkEmail.ValidateEMail(Console.ReadLine());
             Console.WriteLine(check3);
+
+            //UC4
+            MobileFormat mobileFormat = new MobileFormat();
+            Console.WriteLine("Please Enter your mobile no with country code");
+            var check4 = mobileFormat.ValidateMobileNo(Console.ReadLine());
+            Console.WriteLine(check4);
         }
     }
 }
