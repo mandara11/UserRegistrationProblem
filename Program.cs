@@ -53,6 +53,15 @@
             Console.WriteLine("Please Enter your password to check");
             var check8 = password4.ValidatePassword4(Console.ReadLine());
             Console.WriteLine(check8);
+
+            //UC9
+            while (true)
+            {
+                SampleEmails sampleEmail = new SampleEmails();
+                Console.WriteLine("Please Enter your sample emails to check");
+                var check9 = sampleEmail.ValidateEmail(Console.ReadLine());
+                Console.WriteLine(check9);
+            }
         }
     }
 }
