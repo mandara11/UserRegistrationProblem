@@ -41,6 +41,12 @@
             Console.WriteLine("Please Enter your password to check");
             var check6 = password2.ValidatePassword2(Console.ReadLine());
             Console.WriteLine(check6);
+
+            //UC7
+            Password3 password3 = new Password3();
+            Console.WriteLine("Please Enter your password to check");
+            var check7 = password3.ValidatePassword3(Console.ReadLine());
+            Console.WriteLine(check7);
         }
     }
 }
