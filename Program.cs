@@ -5,7 +5,7 @@
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to User Registration Problem");
-            //UC10
+            //UC10//UC12
             Patterns p = new Patterns("msg");
 
             Console.WriteLine("Write your first name using 1st character should be Capital ");
