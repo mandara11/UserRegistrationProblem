@@ -33,6 +33,16 @@
             string name5 = Console.ReadLine();
             p.Password(name5);
 
+            // UC 11 : Write MSUnit Parameterised Test to
+            // validate multiple entry for the Email Address.
+            while (true)
+            {
+                Console.WriteLine("\n Write your Email ex : example123@gmail.com your can write yahoo and any other mail ID.");
+                Console.Write("\n Enter Email : ");
+                string name = Console.ReadLine();
+                p.Email(name);
+            }
+
 
             //UC1
             //FirstName firstName = new FirstName();
